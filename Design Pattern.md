@@ -1,4 +1,4 @@
-# Strategy PatternDesign Pattern
+# Design Pattern
 
 프로그램을 설계 할 때 생길 수 있는 문제점들을 객체 간의 상호 관계 등을 통해 해결 할 수 있도록 규약 형태로 만들어 둔 것을 말한다.
 
