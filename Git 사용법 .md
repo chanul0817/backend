@@ -5,8 +5,6 @@
 - **git init**: 현재 디렉토리를 Git 저장소로 초기화. `.git` 폴더 생성.
     
     ```bash
-    bash
-    코드 복사
     $ git init
     
     ```
@@ -14,8 +12,6 @@
 - **초기 설정**:
     
     ```bash
-    bash
-    코드 복사
     $ git config --global user.name "깃닉네임"
     $ git config --global user.email "깃이메일"
     
@@ -29,8 +25,6 @@
 - **파일 스테이징**:
     
     ```bash
-    bash
-    코드 복사
     $ git add 파일명
     $ git add --all    # 모든 변경사항 추가
     $ git add .        # 현재 디렉토리의 모든 변경사항 추가
@@ -41,8 +35,6 @@
 - **스테이징 확인**:
     
     ```bash
-    bash
-    코드 복사
     $ git status         # 상태 확인
     $ git status -s      # 요약된 상태 확인
     
@@ -51,8 +43,6 @@
 - **스테이징 취소**:
     
     ```bash
-    bash
-    코드 복사
     $ git rm --cached 파일명
     
     ```
@@ -65,8 +55,6 @@
 - **`.gitignore` 생성**: Git이 추적하지 않을 파일이나 폴더를 지정.
     
     ```
-    plaintext
-    코드 복사
     # 예시: .gitignore 내용
     /node_modules
     .env
@@ -82,8 +70,6 @@
 - **커밋하기**:
     
     ```bash
-    bash
-    코드 복사
     $ git commit         # 메시지 작성 에디터 열림
     $ git commit -m "메시지"  # 메시지를 바로 입력하여 커밋
     
@@ -92,8 +78,6 @@
 - **add와 commit 동시에**:
     
     ```bash
-    bash
-    코드 복사
     $ git commit -am "메시지"  # 수정된 파일 add 후 커밋 (새 파일 제외)
     
     ```
@@ -106,8 +90,6 @@
 - **커밋 내역 보기**:
     
     ```bash
-    bash
-    코드 복사
     $ git log                          # 자세한 커밋 내역
     $ git log --oneline                # 요약된 내역
     $ git log --pretty=oneline         # 간단한 형식
@@ -124,8 +106,6 @@
 - **변경사항 확인**:
     
     ```bash
-    bash
-    코드 복사
     $ git diff               # 커밋된 파일과 수정 파일 비교
     $ git diff --staged      # 커밋된 파일과 스테이징된 파일 비교
     
@@ -134,8 +114,6 @@
 - **커밋 간 비교**:
     
     ```bash
-    bash
-    코드 복사
     $ git diff <커밋해시1> <커밋해시2>
     $ git diff HEAD HEAD^    # 가장 최근 커밋과 이전 커밋 비교
     
@@ -144,8 +122,6 @@
 - **브랜치 간 비교**:
     
     ```bash
-    bash
-    코드 복사
     $ git diff 브랜치1 브랜치2
     
     ```
